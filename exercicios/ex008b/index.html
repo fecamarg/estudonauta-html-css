@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outras formatações</title>
+  </head>
+  <body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>
+      O comando <code>document.getElementById('teste')</code> é escrito em
+      linguagem JavaScript.
+    </p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>
+      Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.
+    </p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote
+      cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y"
+    >
+      A diferença entre elementos inline e um bloco de texto é importante. Os
+      elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>
+      Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e
+      <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adoranto!
+    </p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou apredendo a criar coisas em HTML.</bdo></p>
+  </body>
+</html>
+
+<!--
+    - A tag <code> serve para manter o conteúdo em formato de código, porém, ele não mantém a indentação. Para manter a indentação, deve-se colocar todo o conteúdo com a tag code, dentro de uma tag <pre>.
+     - Para manipular indentação, deve-se selecionar a linha ou a parte do código e apertar tab, e para voltar na indentação, deve-se usar a shift+tab.
+     - Tag <q> para trechos de citação.
+     - E para citação de trechos maiores, deve-se usar a tag blockquote com um cite="link do lugar". Visualmente não acontece nada, mas influencia nos sites de busca.
+     - Para mostar o significado de uma sigla/abreviação, deve-se envelopar com a tag <abbr>, mostra um pop-up com o significado que você inserir.
+     - A tag bdo serve para alterar a direção do texto, rtl é right to left e ltr é left to right, direito para esquerda ou esquerda para direita. Inútil. xD
+-->

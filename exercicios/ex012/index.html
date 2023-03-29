@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <!-- <video src="" width="500" controls></video> -->
+
+    <video width="500" controls poster="">
+        <source src="" type="video/mp4">
+        <source src="" type="video/m4v">
+        <source src="" type="video/webm">
+        <source src="" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/30nlBGjPRYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+
+</body>
+</html>
+
+<!-- 
+    Mesmo esquema dos áudios, deve-se colocar a ordem de preferência de tentativa de carregamentos, pois cada navegador, tem configurações diferentes, e o que funciona em um, pode não funcionar no outro. 
+    Tag controls para aparecer o controlador do vídeo, e a tag poster para definir a capa do vídeo antes de ser executado.
+    Usar vídeos hospedados em outros locais, não consome a banda do seu cliente.
+    Vídeos do Vimeo tem maior qualidade, fluidez, e não tem propagandas, porém, o preço é salgado.
+    TOMAR MUITO CUIDADO COM DIREITOS AUTORAIS!
+-->

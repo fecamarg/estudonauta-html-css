@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você poode acessar o meu <a href="https://github.com/fecamarg" target="_blank" rel="externos">repositório público no Github</a></p>
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/channel/UCSRQa7jQVHZkitVjNkmckyg" target="_blank" rel="externos">canal no YouTube</a></p>
+    
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+    <!-- Segurar o Ctrl + espaço, para selecionar e linkar itens internos, mas precisa estar dentro da pasta do index -->
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="10 - Ligações em toda parte.pdf" download="meulivro.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+        <li><a href="10 - Ligações em toda parte.rar" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>
+
+<!-- 
+    Dicas:
+    Semântica -> 
+    rel="next" ou rel="prev", significa next = próximo(a) e prev = previous, anterior
+
+    A atribuição rel="unfollow" é uma tag HTML usada para informar aos mecanismos de pesquisa e outros agentes que um link não deve 
+    ser seguido ou rastreado. Isso significa que, se um link em uma página contiver a atribuição rel="unfollow", os motores de busca 
+    não seguirão esse link para outras páginas ou sites vinculados a ele. Essa tag pode ser usada para evitar que os links de 
+    afiliados, links patrocinados ou links para sites de baixa qualidade prejudiquem o SEO do seu site ou afetem negativamente sua 
+    reputação on-line. É importante observar que a atribuição rel="unfollow" não impede que os usuários cliquem no link e acessem o 
+    site vinculado, apenas impede que os motores de busca sigam o link para indexar e classificar a página de destino.
+-->
