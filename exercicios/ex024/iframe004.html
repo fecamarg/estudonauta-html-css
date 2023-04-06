@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas laborum commodi provident doloremque ea delectus optio maxime, labore itaque libero mollitia ex in similique vero alias at consequatur dolore!</p>
+
+    <!-- 
+        Segurança dentro do iframe:
+
+         - A configuração sandbox="sandbox" na tag iframe, bloqueia qualquer tipo de acesso a informações através de cadastro, para evitar vazamento ou capturas.
+
+          - sandbox="sandbox" limita o máximo as interações, porém, se quiser liberar algumas funcionaldiades, basta mudar o sandbox para sandbox="allow-same-origin allow forms allow-scripts"
+        
+          - A configuração referrerpolicy="no-referrer" impede coleta de dados para propagandas, tentaivas que interfiram nas políticas de privacidade.
+
+         - 
+    -->
+
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">Seu navegador não é compatível com isso.</iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam, voluptatum iusto voluptates, nobis unde consequatur cumque ratione, asperiores dolorem voluptate iste accusamus recusandae quo velit inventore non temporibus dignissimos.</p>
+</body>
+</html>
