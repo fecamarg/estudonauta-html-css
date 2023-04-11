@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on"></form>
+    <p>
+        <label for="iusu">Usuário:</label>
+        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="16" placeholder="nome do usuário" autocomplete="username">
+    </p>
+    <p>
+        <label for="isen">Senha:</label>
+        <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" placeholder="mínimo 8 letras" autocomplete="current-password">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</body>
+</html>
+
+<!-- 
+    - Quando o input for do tipo password, o navegador não mostra o que for digitado.
+    - Sempre que usar dados sensíveis, como senha, escolha o método post, para os dados não ficarem visíveis na url do navegador. Embora ainda seja possível vê-los através do devtools, network, headers. O correto é usar protocolos de segurança, https.
+    - O uso do required no input, torna o preenchimento do campo obrigatório.
+    - O uso do minlength e maxlength junto ao required, determina a quantidade mínima e máxima de caracteres.
+    - O uso do size no input, determina o tamanho dele, cabem até "16" caracteres. Se o maxlength for maior, vai cortar o conteúdo.
+    - O uso do placeholder, é uma dica dentro da caisa para ajudar o usuário sobre o dado que precisa inserir no campo input.
+    - O uso do autocomplete no form, ativa ou desativa a funcionalidade de sugestão para autocompletar, porém, 
+    em cada input, deve-se também configurar qual a informação deve ser sugerida no autocomplete daquele campo input.
+ -->
