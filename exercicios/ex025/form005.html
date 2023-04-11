@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmasculino" value="M"><label for="isxmasculino">Masculino</label>
+            <input type="radio" name="sexo" id="isxfeminino" value="F"><label for="isxfeminino">Feminino</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="basquete" id="ibasquete"><label for="ibasquete">Basquete</label><br>
+            <input type="checkbox" name="futebol" id="ifutebol"><label for="ifutebol">Futebol</label><br>
+            <input type="checkbox" name="natacao" id="inatacao" checked><label for="inatacao">Natação</label><br>
+            <input type="checkbox" name="tenis" id="itenis"><label for="itenis">Tênis</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
+
+<!-- 
+    - Para formulário usando input radio, deve-ser usar o mesmo nome para ambos, caso contrário, será possível selecionar os dois ao mesmo tempo.
+    - Se quiser que alguma opção já fique pré-selecionada, deve-se usar a definição checked dentro do input.
+ -->

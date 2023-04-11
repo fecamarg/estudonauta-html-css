@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="20" autocomplete="name" placeholder="Nome completo" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" placeholder="usuario@email.com" required>
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" placeholder="55 11 1234-5678" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
+
+    <!--
+        - Estudar mais sobre RegEx, expressões regulares.
+        - O pattern usado no input do telefone, é uma RegEx, ele determina que o campo aceitará apenas dois digitos para o DDD, 4 a 5 dígitos para a primeira parte do telefone e 4 digitos para a segunda parte.
+         - A tag fieldset agrupa os botões dentro de um campo, e a tag legend, coloca o título daquele campo.
+    -->
