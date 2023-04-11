@@ -13,7 +13,7 @@
 </head>
 <body>
     <h1>Meu rimeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p><label for="inome">Nome:</label>
              <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label>
@@ -23,5 +23,9 @@
 </body>
 </html>
 
- <!-- - Inserir um i na id para diferenciar do name
- - Fazer a relação da id com o for da label, para ambos ficarem relacionados -->
+ <!--
+    - Inserir um i na id para diferenciar do name.
+    - Fazer a relação da id com o for da label, para ambos ficarem relacionados.
+    - Observar que os dados inseridos no formulário, ao serem enviados, ficam na url do navegador.
+    - Ser usar o método post no form, ele tira os dados da url, porém, eles ainda são visíveis no network > headers, do devtools.
+ -->
