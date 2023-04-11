@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="icor">Cor:</label>
             <input type="color" name="cor" id="icor" value="#00ff00">
@@ -31,3 +31,7 @@
     </form>
 </body>
 </html>
+
+<!-- 
+    - Devido a limitação de envio para o método get, no caso de envio de fotos, imagens, ou textos grandes, o recomendado é usar o method="post" no form.
+ -->
