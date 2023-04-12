@@ -23,7 +23,12 @@ Fonte: https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
     }
 
     main {
+        width: 90vw;
         border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
     }
 
     main h1 {
