@@ -7,7 +7,7 @@
 </ul>
 <br>
 <hr style="border-top: 3px solid black;">
-<p>Atividades do Curso de Desenvolvimento Web 2020 (HTML5+CSS3) do Estudonauta</p>
+<p>Módulos do Curso de Desenvolvimento Web 2020 (HTML5+CSS3) do Estudonauta</p>
 <p><a href="https://www.estudonauta.com/">https://www.estudonauta.com</a></p>
 <img src="https://user-images.githubusercontent.com/126820611/232139948-f7f91e1c-6b7a-4601-aa4a-def74a618ee4.png" alt="Imagem do Estudonauta">
 <br>
