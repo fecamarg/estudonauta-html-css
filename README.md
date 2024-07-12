@@ -1,11 +1,10 @@
 <p>Veja alguns projetos que foram desenvolvidos durante o curso:</p>
 <ul>
-  <li><a href="https://fecamarg.github.io/html-css-estudonauta/desafios/010-android-website/index.html">https://fecamarg.github.io/html-css-estudonauta/desafios/010-android-website/index.html</a></li>
-  <li><a href="https://fecamarg.github.io/html-css-estudonauta/desafios/012-cordel/index.html">https://fecamarg.github.io/html-css-estudonauta/desafios/012-cordel/index.html</a></li>
-  <li><a href="https://fecamarg.github.io/html-css-estudonauta/desafios/014-social-media-phone/index.html">https://fecamarg.github.io/html-css-estudonauta/desafios/014-social-media-phone/index.html</a></li>
-  <li><a href="https://fecamarg.github.io/html-css-estudonauta/exercicios/ex026/mq006-projeto-login/index.html">https://fecamarg.github.io/html-css-estudonauta/exercicios/ex026/mq006-projeto-login/index.html</a></li>
+  <li><a href="https://fecamarg.github.io/html-css-estudonauta/desafios/010-android-website/index.html">Android Website</a></li>
+  <li><a href="https://fecamarg.github.io/html-css-estudonauta/desafios/012-cordel/index.html">Cordel</a></li>
+  <li><a href="https://fecamarg.github.io/html-css-estudonauta/desafios/014-social-media-phone/index.html">Social Media Phone</a></li>
+  <li><a href="https://fecamarg.github.io/html-css-estudonauta/exercicios/ex026/mq006-projeto-login/index.html">Login</a></li>
 </ul>
-<br>
 <hr style="border-top: 3px solid black;">
 <p>Módulos do Curso de Desenvolvimento Web 2020 (HTML5+CSS3) do Estudonauta</p>
 <p><a href="https://www.estudonauta.com/">https://www.estudonauta.com</a></p>
